@@ -1,0 +1,307 @@
+ .slider, .slider-panel img, .slider-extra { 
+	  width: 1150px; 
+	  height: 575px; 
+	 } 
+ .slider { 
+	  text-align: center; 
+	  margin: 0 auto; 
+	  position: relative; 
+	 } 
+ .slider-panel, .slider-nav, .slider-pre, .slider-next { 
+	  position: absolute; 
+	  z-index: 8; 
+ 	} 
+ .slider-panel { 
+	  position: absolute; 
+	 } 
+ .slider-panel img { 
+	  border: none; 
+	 } 
+ .slider-extra { 
+	  position: relative; 
+	 } 
+ .slider-nav { 
+	  margin-left: -51px; 
+	  position: absolute; 
+	  left: 50%; 
+	  bottom: 4px; 
+	 } 
+ .slider-nav li { 
+	  background: #ECECEC; 
+	  border-radius: 50%; 
+	  color: #ECECEC; 
+	  cursor: pointer; 
+	  margin: 0 2px; 
+	  overflow: hidden; 
+	  text-align: center; 
+	  display: inline-block; 
+	  height: 10px; 
+	  line-height: 10px; 
+	  width: 10px; 
+	 } 
+ .slider-nav .slider-item-selected { 
+	  background: blue; 
+	 } 
+ .slider-page a{ 
+	  background: rgba(0, 0, 0, 0.2); 
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000); 
+	  color: #fff; 
+	  text-align: center; 
+	  display: block; 
+	  font-family: "simsun"; 
+	  font-size: 22px; 
+	  width: 28px; 
+	  height: 62px; 
+	  line-height: 62px; 
+	  margin-top: -31px; 
+	  position: absolute; 
+	  top: 50%; 
+	 } 
+ .slider-page a:HOVER { 
+	  background: rgba(0, 0, 0, 0.4); 
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000); 
+	 } 
+ .slider-next { 
+	  left: 100%; 
+	  margin-left: -28px; 
+	 } 
+.miao{width: 1150px;
+	    margin: 0 auto;
+	    height: 282px;
+	    
+	    margin-bottom: 66px;}
+	.miao .time{margin-top: 110px;
+			    margin-left: 54px;
+			    margin-right: 90px;  
+			    float: left;
+			    width: 109px;}
+	.miao .time h3{font-size: 24px;
+				    color: #4F494B;
+				    font-weight: normal;
+				    margin-bottom: 21px;
+				    letter-spacing: 3px;}
+	.miao .time h4{font-size: 13px;
+				    color: #9B9B9B;
+				    line-height: 17px;
+				    font-weight: normal;
+				    margin-bottom: 22px}
+	.miao .time p{  height: 26px;
+    				line-height: 24px;}
+    .miao .time p span{display: inline-block;
+					    width: 24px;
+					    height: 24px;
+					    border: 1px solid #4A4A4A;
+					    border-radius: 3px;
+					    text-align: center;}
+	.miao .time p em{   margin-left: 2px;
+    					margin-right: 2px;
+    					top: -3px;}
+	.miao dl{float: left;
+		    width: 222px;
+		    height: 282px;
+		    margin-right: 76px;}
+	.miao dl dt{width: 222px;height: 222px;}
+	.miao dl dt img{width: 100%;height: 100%;}
+	.miao dl dd{padding: 4px 16px 0px 16px;}
+	.miao dl dd h3{font-size: 12px;
+				    font-weight: normal;
+				    color: #4A4A4A;
+				    margin-bottom: 8px;
+				    line-height: 16px;
+				    height: 32px;
+				    overflow: hidden;}	
+	.miao dl dd p b{font-size: 14px;
+					    color: #e74c3c;
+					    margin-right: 14px;}
+	.miao dl dd p span{font-size: 14px;
+					    color: #828282;
+					    text-decoration: line-through;}
+.xuan{height: 584px;margin-bottom: 60px;}
+	.xuan ul {width: 1150px;margin: 0 auto;}
+	.xuan ul li{
+			    float: left;
+			    margin-bottom:10px ;
+			    margin-right: 10px;
+			    height: 282px;
+			    width: 564px;}
+	.xuan ul li img{width: 100%;height: 100%;border: none;}
+.hot{width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 10px;}
+    .hot .hot_zi{width: 1150px;
+				 margin: 0 auto;
+				 font-size:20px;
+				 height: 24px;
+				 line-height: 24px;
+				 margin-bottom: 30px;}
+	.hot .hot_pin{overflow: hidden;}
+	.hot .hot_pin dl{width: 222px;
+				    height: 340px;
+				    float: left;
+				    margin-right: 8px;
+				    margin-bottom: 20px;
+				    overflow: hidden;
+				    position: relative;}
+	.hot .hot_pin dl .two{width: 222px;height:222px;
+							opacity: 0;background:rgba(0,0,0,0.1);
+							position: absolute;
+							left: 0px;
+							top: 0px;
+							z-index: 1;}
+	.hot .hot_pin dl dt{width: 222px;
+					    height: 222px;
+					    position: relative;}
+	.hot .hot_pin dl dt .sale{width: 75px;
+						    height: 60px;
+						    position: absolute;
+						    left: 0px;
+						    top: 0px;
+						    text-align: center;
+						    padding: 0px;
+						    font-size: 16px;
+						    z-index: 9;
+						    line-height: 52px;
+						    color: white;}
+	.hot .hot_pin dl dt .sale img{height: 100%;width: auto;display: block;}
+	.hot .hot_pin dl dt a{display: block;float: left;}	
+	.hot .hot_pin dl dt a img{width: 222px;height: 222px;border: none;}	
+	.hot .hot_pin dl dd{padding-left: 16px;
+					    padding-top: 11px;
+					    padding-right: 16px;
+					    height: 90px;}	
+	.hot .hot_pin dl dd .hei{margin-bottom: 4px;
+						    color: #828282;
+						    font-size: 12px;
+						    height: 14px;
+						    line-height: 14px;
+						    overflow: hidden;}
+	.hot .hot_pin dl dd .hei a{color: #4A4A4A;font-size:13px ;}					    
+	.hot .hot_pin dl dd .hui{line-height: 16px;
+						    font-size: 12px;
+						    height: 32px;
+						    margin-bottom: 8px;
+						    overflow: hidden;}
+						    
+	.hot .hot_pin dl dd .hui a{color: #828282 ;display: block;float:left;}
+	.hot .hot_pin dl dd .jia b{font-size: 14px;
+							    color: #e74c3c;
+							    margin-right: 14px;}
+	.hot .hot_pin dl dd .jia span{font-size: 14px;
+								    color: #828282;
+								    text-decoration: line-through;}
+.sell{width: 100%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    background: #F8F8F8;
+    padding-top: 30px;}
+    .sell .sell_zi{width: 1150px;
+		    margin: 0 auto;
+		    font-size:20px;
+		    height: 24px;
+		    line-height: 24px;}
+	.sell .sell_pin{height: 280px;
+				    width: 100%;
+				    overflow: hidden;
+				    margin-top: 45px}
+	.sell .sell_pin .hu{width: 1150px;margin: 0 auto;}
+	.sell .sell_pin dl{padding: 18px 0px;
+					    float: left;
+					    margin-right: 12px;
+					    width: 370px;
+					    height: 184px;
+					    background: #FFFFFF;}
+	.sell .sell_pin dl dt{width: 185px;
+					    height: 185px;
+					    float: left;}
+	.sell .sell_pin dl dt a{text-decoration: none;color: #4A4A4A;}
+	.sell .sell_pin dl dt a img{width: 100%;height: 100%;border: none;}
+	.sell .sell_pin dl dd{padding-left: 18px;float: left;width: 144px;}
+	.sell .sell_pin dl dd h3{margin-top: 42px;line-height: 26px;margin-bottom: 8px;
+							font-size:14px;font-weight: 500;}
+	.sell .sell_pin dl dd h4{margin-bottom: 8px;font-size:13px ;}
+	.sell .sell_pin dl dd h4 a{color: #828282;}
+	.sell .sell_pin dl dd p{height: 36px;overflow: hidden;}
+	.sell .sell_pin dl dd p a{color: #4A4A4A;font-size: 12px;}
+.jing{margin: 0 auto;width: 1150px;}
+	.jing .jing_zi {    width: 1150px;
+					    margin: 0 auto;
+					    font-size: 1px;
+					    height: 24px;
+					    line-height: 24px;
+					    margin-bottom: 30px;}
+	.jing .jing_zi p{line-height: 24px;
+					    padding-right: 10px;
+					    display: inline-block;
+					    position: relative;
+					    font-size: 20px;
+					    padding-left: 12px;}
+	.jing .jing_zi a{ font-size: 13px;
+				    color: #4A4A4A;
+				    float: right;
+				    color: #828282;
+				    margin-right: 7px;
+				    line-height: 24px;
+				    position: relative;
+				    padding-right: 18px;
+				    }
+	.jing .jing_zi a img{position: absolute;
+						    right: 0px;
+						    width: 14px;
+						    height: 14px;
+						    top: 4px;
+						    border: none;}
+	.jing .jing_pin{margin-bottom: 40px;overflow: hidden;}
+	.jing .jing_pin dl{width: 222px;
+				    height: 340px;
+				    float: left;
+				    margin-right: 8px;
+				    margin-bottom: 20px;
+				    overflow: hidden;
+				    position: relative;}
+	.jing .jing_pin dl .two{width: 222px;height:222px;
+							opacity: 0;background:rgba(0,0,0,0.1);
+							position: absolute;
+							left: 0px;
+							top: 0px;
+							z-index: 1;}
+	.jing .jing_pin dl dt{width: 222px;
+					    height: 222px;
+					    position: relative;}
+	.jing .jing_pin dl dt .sale{width: 75px;
+						    height: 60px;
+						    position: absolute;
+						    left: 0px;
+						    top: 0px;
+						    text-align: center;
+						    padding: 0px;
+						    font-size: 16px;
+						    z-index: 9;
+						    line-height: 52px;
+						    color: white;}
+	.jing .jing_pin dl dt .sale img{height: 100%;width: auto;display: block;}
+	.jing .jing_pin dl dt a{display: block;float: left;}	
+	.jing .jing_pin dl dt a img{width: 222px;height: 222px;border: none;}	
+	.jing .jing_pin dl dd{padding-left: 16px;
+					    padding-top: 11px;
+					    padding-right: 16px;
+					    height: 90px;}	
+	.jing .jing_pin dl dd .hei{margin-bottom: 4px;
+						    color: #828282;
+						    font-size: 12px;
+						    height: 14px;
+						    line-height: 14px;
+						    overflow: hidden;}
+	.jing .jing_pin dl dd .hei a{color: #4A4A4A;font-size:13px ;}					    
+	.jing .jing_pin dl dd .hui{line-height: 16px;
+						    font-size: 12px;
+						    height: 32px;
+						    margin-bottom: 8px;
+						    overflow: hidden;}
+						    
+	.jing .jing_pin dl dd .hui a{color: #828282 ;display: block;float:left;}
+	.jing .jing_pin dl dd .jia b{font-size: 14px;
+							    color: #e74c3c;
+							    margin-right: 14px;}
+	.jing .jing_pin dl dd .jia span{font-size: 14px;
+								    color: #828282;
+								    text-decoration: line-through;}
