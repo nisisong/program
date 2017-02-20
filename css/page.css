@@ -1,0 +1,297 @@
+/*商品展示*/
+.good{width: 1150px;
+    height: 590px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 62px;} 
+    .good .good_box{width: 400px;
+				    height: 400px;
+				    float: left;}
+		.show{position: relative;
+				width: 400px;
+				height: 400px;}
+		.show img{cursor: crosshair;display: inline;width: 100%;height: 100%;}
+		.mm{ width: 100px;
+			    height: 100px;
+			    position: absolute;
+			    background: lightgoldenrodyellow;
+			    opacity: 0.6;
+			    left: 0px;
+			    top: 0px;
+			    display: none;}
+		.rel{ width: 400px;
+			    height: 400px;
+			    position: absolute;
+			    left: 500px;
+			    top: 240px;
+			    overflow: hidden;
+			    display: none;}
+		.rel img {width: 1180px;
+				    height: 1180px;
+				    position: absolute;
+				    top: 30px;
+				    left: 0px;
+				    overflow: hidden;
+				    z-index: 10;}
+		.list{width: 408px;
+			    height: 58px;
+			    overflow: hidden;
+			    margin-top: 34px;
+			    position: relative;}
+		.list ul{width: 350px; height: 55px;position: relative;}
+		.list ul li{float: left;
+				    width: 56px;
+				    height: 56px;
+				    border: 1px solid #BEBEBE;
+				    margin-right: 12px;
+				    cursor: pointer;}
+		.list ul li img{width: 100%;height: 100%;}
+	.good_right{width: 680px;
+			    overflow: hidden;
+			    float: right;}
+		.title{font-size: 18px;
+			    color: #4A4A4A;
+			    line-height: 24px;}
+		.good_brand {font-size: 12px;
+				    color: #4A4A4A;
+				    color: #332E26;
+				    margin-bottom: 12px;
+				    line-height: 26px;
+				    margin-top: 10px;}
+		.good_brand a{text-decoration: none;color: #4A4A4A;}
+		.good_brand span{margin-left: 10px;}
+		.activty { width: 100%;
+			    height: auto;
+			    background: #F8F8F8;
+			    overflow: hidden;
+			    margin-bottom: 13px;
+			    padding-bottom: 15px;}
+			.price_Ratio {float: left;
+						    padding-left: 15px;
+						    width: 192px;
+						    padding-top: 12px;
+						    display: inline;}
+			.price_Ratio .p_r {line-height: 34px;position: relative;}
+			.price_Ratio span {color: #4A4A4A;font-size: 12px;}
+			.price_Ratio b {position: absolute;
+						    left: 50px;
+						    color: #e74c3c;
+						    top: 2px;
+						    font-size: 24px;}
+		.good_right .color{overflow: hidden;
+						    padding-left: 14px;
+						    line-height: 45px;
+						    width: 100%;}	
+		.good_right .color p{width: 50px;float: left;height: auto;display: block;}
+
+		.good_right .color ul{width: 50px;float: left;height: auto;margin-top: 8px;}
+		.good_right .color ul li{padding: 1px;
+							    border: 1px solid #e74c3c;
+							    border-radius: 3px;
+							    margin-right: 17px;
+							    margin-bottom: 8px;
+							    cursor: pointer;}
+		.good_right .color ul li img{width: 25px;
+								    height: 25px;
+								    display: block;
+								    margin-left: 2px;}
+		.good_right .num{overflow: hidden;
+						    padding-left: 14px;
+						    line-height: 45px;
+						    width: 100%;}	
+		.good_right .num p{width: 50px;float: left;height: auto;display: block;}
+		/*.good_right .num ul{width:135px;float: left;height: auto;margin-top: 0px;
+		.good_right .num ul li{padding: 1px;
+							    border: 1px solid #e74c3c;
+							    border-radius: 3px;
+							    margin-right: 17px;
+							    margin-bottom: 8px;
+							    cursor: pointer;
+							    width: 100px;}
+		*/
+		/*.good_right .num ul li p .warp_input{ width: 100px;
+							    height: 25px;
+							    margin-top: 8px;
+							    margin-top: 8px;
+							    line-height: 25px;
+							    overflow: hidden;}
+		
+		.good_right .num ul li p .warp_input span{width: 23px;
+								    height: 23px;
+								    display: inline;
+								    text-align: center;
+								    line-height: 25px;
+								    cursor: pointer;
+								    font-size: 14px;
+								    color: #4A4A4A;
+								    border: 1px solid #F8F8F8;
+								    float: left;}
+		.good_right .num ul li p input{width: 50px;
+									    height: 100%;
+									    float: left;
+									    display: inline;
+									    text-align: center;
+									    line-height: 25px;
+									    height: 23px;
+									    border: none;
+									    color: #4A4A4A;
+									    border-top: 1px solid #F8F8F8;
+									    border-bottom: 1px solid #F8F8F8;
+									    outline: none;}
+		*/
+		
+	.porompt{overflow: hidden;
+		    padding-left: 14px;
+		    line-height: 45px;
+		    width: 100%;}	
+		
+	.porompt span{width: 50px; float: left;height: auto;}	
+	.porompt ul{width: 450px;
+			    float: left;
+			    height: auto;
+			    line-height: 17px;
+			    padding-top: 14px;}
+	.porompt ul li{line-height: 17px;
+				    display: inline-block;
+				    margin-right: 16px;
+				    padding-left: 10px;
+				    color: #4A4A4A;
+				    margin-bottom: 8px;
+				    position: relative}	
+	.porompt ul li span{position: absolute;
+					    width: 4px;
+					    height: 4px;
+					    border-radius: 2px;
+					    top: 7px;
+					    background: #C0392D;
+					    left: 0px;}
+					    
+					    
+	.collection {overflow: hidden;margin-top: 4px;}
+	.collection span{float: left;
+				    display: inline;
+				    width: 180px;
+				    height: 50px;
+				    cursor: pointer;
+				    line-height: 50px;
+				    font-size: 18px;}	
+	.col {border: 1px solid #e74c3c;
+		    border-radius: 3px;
+		    color: #e74c3c;
+		    text-indent: 88px;
+		    background:url(../img/like.png) no-repeat 56px center;
+		    background-size: 20px 18px;
+		     margin-right: 12px;}
+	
+	.shopping_bar{border: 1px solid #e74c3c;
+				    background: #e74c3c;
+				    border-radius: 3px;
+				    color: white;
+				    vertical-align: middle;
+				    position: relative;
+				    text-indent: 64px;}
+	.shopping_bar img{position: absolute;
+					    left: 32px;
+					    top: 13px;
+					    margin-right: 6px;
+					    vertical-align: middle;
+					    width: 20px;
+					    height: 22px;}
+/*商品详情*/	
+.details {width: 1150px;
+	    height: auto;
+	    margin: 0 auto;
+	    overflow: hidden;}	
+	
+	.details_cont {float: right;
+				    width: 858px;
+				    height: auto;}
+	.menu{width: 847px;
+		    padding-left: 11px;
+		    height: 55px;
+		    background: #F8F8F8;
+		    margin-bottom: 50px;}
+	.menu a{float: left;
+		    display: inline;
+		    width: 130px;
+		    text-align: center;
+		    line-height: 55px;
+		    font-size: 18px;
+		    color: #4A4A4A;}
+	.dealis_mess{line-height: 38px;
+			    border-bottom: 1px solid #ececec;
+			    margin-bottom: 54px;}
+	.dealis_mess li{padding-left: 42px;
+				    overflow: hidden;
+				    border-top: 1px solid #ececec}
+	.dealis_mess li span{float: left;
+					    display: inline;
+					    width: 92px;}
+	.dealis_mess li p{float: left;
+					    padding-top: 8px;
+					    padding-bottom: 8px;
+					    line-height: 22px;
+					    width: 670px;}
+	.deali_show{width: 770px;
+			    margin: 0 auto;
+			    padding-bottom: 100px;}
+	.deali_show dl dd{text-align: center;
+					    margin: 0 auto;
+					    margin-top: 60px;
+					    width: 700px;
+					    height: 700px;}
+	.deali_show dl dd img{width: 100%;
+						    height: auto;
+						    display: block;}
+	.deali_show dl dt{font-size: 13px;
+					    margin-top: 42px;
+					    color: #4A4A4A;
+					    line-height: 20px;}
+	.zhu h3{font-size: 14px;
+		    color: #4A4A4A;
+		    font-weight: normal;
+		    line-height: 40px;
+		    margin-top: 20px;}
+	.zhu ul{padding-left:14px ;}
+	.zhu ul li{font-size: 13px;
+			    line-height: 33px;
+			    list-style: disc;
+			    padding-left: 2px;}
+	.brand{border-top: 1px solid #ececec;margin-top: 100px;}
+	.brand_cont {width: 700px;
+			    margin: 0 auto;
+			    margin-top: 64px;
+			    overflow: hidden;
+			    margin-bottom: 30px;}
+	.brand_cont img {float: left;
+				    width: 700px;
+				    height: auto;}
+	
+.similar {float: left;
+		    width: 225px;
+		    height: auto;
+		    padding-left: 25px;
+		    background: #F8F8F8;
+		    padding-bottom: 20px;
+		    padding-right: 25px;}	
+	.similar h4 {text-indent: 8px;
+			    height: 55px;
+			    line-height: 55px;
+			    font-size: 18px;
+			    font-weight: normal;}	
+	.similar a {display: block}		    
+	.similar dl {padding-bottom: 10px;
+			    background: white;
+			    margin-top: 20px;}		    
+	.similar dl dt {position: relative;}		    
+	.similar img {width: 100%; height: 100%;}		    
+	.similar dd {padding-left: 16px;
+			    margin-top: 18px;
+			    padding-right: 16px;}		    
+			    
+	.similar dd p {line-height: 17px;
+				    height: 34px;
+				    margin-bottom: 5px;
+				    font-size: 13px;
+				    overflow: hidden;}		    
+	.similar dd span {color: #e74c3c;font-size: 12px;}		        			    

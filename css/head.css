@@ -1,3 +1,4 @@
+/*logo*/
 .header{width: 100%;height: 70px;border-bottom: 1px solid #ECECEC;background-color:#fff ;min-width: 800px;}
 	.blank{width: 1150px;margin: 0 auto;}
 		.header_logo{width: 100%;height: 100%;}
@@ -65,6 +66,7 @@
 					    height: 18px;
 					    display: block;
 					    margin-top: 7px;}	
+		/*点击搜索框下拉内容*/
 		#hot_list{position: absolute;
 				    left: 12px;
 				    top: 34px;
@@ -82,6 +84,8 @@
 				    line-height: 30px;
 				    text-indent: 15px;}
 		#hot_list li:hover{background: #F8F8F8;}	    
+
+
 .nav{position: relative;left: 0;top: 0;border-bottom: 1px solid #F8F8F8;width: 100%;}
 	.nav_bar{width: 1150px;margin: 0 auto;}
 	.nav_bar ul{line-height: 50px;display: inline-block;}
@@ -96,6 +100,105 @@
 	.nav_bar .con a:hover{color: #f00}
 	.nav_bar .ke{float: right; line-height: 48px; font-size: 14px; color: rgb(74, 74, 74); 
 				padding-right: 24px; display: block;}
+	
 		
-
-    
+.footer_container {min-width: 1150px;width: 100%;height: 140px;margin-top: 140px; background: #F8F8F8;}
+.footer{width: 1150px;margin: 0 auto;}
+	 .footer_hlep{height: 25px;padding-top: 26px;overflow: hidden;margin-bottom: 32px;}
+	 .footer_hlep li{float: left;margin-right: 66px;}
+	 .footer_hlep li a{display: block;
+							 padding-left: 30px;
+							 height: 25px;
+							 line-height: 25px;
+							 color: #4A4A4A;
+							 font-size: 12px;}
+			.footer_hlep li a .ujp{background:url(../img/icon_bg.png);
+								background-size: auto 200px;
+								background-position: 0px -133px;}
+		    .footer_hlep li a .shopping {background:url(../img/icon_bg.png);
+									    background-size: auto 200px;
+									    background-position: -210px -132px;}
+			.footer_hlep li a .book{background:url(../img/icon_bg.png);
+								background-size: 200px 200px;
+    							background-position: 10px 2px;}	
+	.footer_information{margin-top: 32px;width: 1150px;height: 20px;}
+		.footer_information p{float: left;
+						    height: 20px;
+						    font-size: 12px;
+						    overflow: hidden;
+						    margin-left: 50px;}
+		.footer_information p span{padding-right: 22px;
+							    padding-left: 22px;
+							    border-right: 1px solid #4A4A4A;}
+		.footer_information p span .first{    padding-left: 10px;}
+		.footer_information p span .last{border-right: none;}
+		.footer_information dl{float: right;
+							    height: 19px;
+							    margin-right: 20px;
+							    display: inline;}
+		.footer_information dl dt{line-height: 19px;font-size: 12px;float: left;}
+		.footer_information .weicht{width: 23px;
+									height: 19px;
+									float: left;
+									margin-left: 10px;
+									background:url(../img/icon_bg.png);
+									background-size: auto 200px;
+									position: relative;
+									background-position: -90px -105px;}
+		.footer_information dl .weicht div{position: absolute;
+									    width: 130px;
+									    height: 130px;
+									    box-shadow: 0 0 10px #CCC;
+									    left: -56px;
+									    top: -140px;
+									    display: none;}
+		.footer_information .weicht div img{border: none;}
+/*侧边固定联系客服*/
+#lian{width: 65px;
+    height: 66px;
+    border-radius: 3px;
+    background: #F8F8F8;
+    position: fixed;
+    bottom: 245px;
+    right: 0px;
+    display: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: #4A4A4A;
+    z-index: 2;}
+    #lian img{display: block;
+			    width: 45px;
+			    height: 45px;
+			    margin-left: 10px;
+			    margin-top: 12px;}
+/*侧边返回顶部*/
+#roof{width: 65px;
+    height: 66px;
+    border-radius: 3px;
+    background: #F8F8F8;
+    position: fixed;
+    bottom: 170px;
+    right: 0px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #4A4A4A;
+    display: none;
+    z-index: 2}
+	#roof img{display: block;
+			    width: 45px;
+			    height: 45px;
+			    margin-left: 10px;
+			    margin-top: 12px;}
+	#roof p{padding: 14px 0px;
+		    line-height: 18px;
+		    padding-left: 18px;
+		    letter-spacing: 3px;
+		    display: none;}
+/*面包屑导航栏*/
+.crumbs{width: 100%;
+	    height: 55px;
+	    background: #F8F8F8;
+	    margin-bottom: 60px;}
+	.crumbs .crumbs_center{width: 1150px;
+						    margin: 0 auto;
+						    line-height: 55px;}

@@ -1,4 +1,4 @@
-
+//轮播图
 	$(document).ready(function() {
 			  var length, 
 			   currentIndex = 0, 

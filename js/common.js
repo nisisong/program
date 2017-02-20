@@ -1,4 +1,3 @@
-//搜索框
 function sousuo(){
 	$(function(){
 				$(".kuang").click(function(){
@@ -14,8 +13,6 @@ function sousuo(){
 			})
 }
 
-
-//下载app
 function app(){
 	$(function(){
 		$(".app").on("mousemove",function(){
@@ -27,8 +24,6 @@ function app(){
 	})
 }
 
-
-//侧边栏效果
 function main(){
 	$(function () {
 			$(".nav_xia").on("mouseenter", function(){
@@ -46,8 +41,6 @@ function main(){
 		});
 }
 
-
-//滚动条滑动导航栏固定
 function Nav(){
 	
 	var _black=document.getElementById("header");
@@ -72,36 +65,6 @@ function Nav(){
 	
 	}
 
-
-//倒计时
-	var _timer=0;
-function timer(){
-	window.clearTimeout(_timer);
-	var o_date=new Date("2017/12/10");
-	var s_date=new Date();
-	var _milli=o_date.getTime()-s_date.getTime();
-	var _date=new Date(_milli);
-	document.getElementsByTagName("span")[3].innerHTML=_date.getHours();
-	document.getElementsByTagName("span")[4].innerHTML=_date.getMinutes();
-	document.getElementsByTagName("span")[5].innerHTML=_date.getSeconds();
-	_timer=window.setTimeout(timer,10);
-}
-
-//划过商品阴影效果
-function meng(){
-	$(function () {
-		$(".hua").on("mouseover", function(){
-			$(this).css("background","#f2f2f2");
-			$(this).children(".two").css("opacity","0.3");	
-		});
-		$(".hua").on("mouseout", function(){
-			$(this).css("background","#FFFFFF");
-			$(this).children(".two").css("opacity","0");
-		});
-	});
-}
-
-//底部关注微信
 function weicht(){
 	$(function(){
 		$(".weicht").on("mousemove",function(){
@@ -117,8 +80,7 @@ window.onload=function(){
 	main();
 	sousuo();
 	app();
-	timer();
-	meng();
 	weicht();
 	Nav();
+
 }
